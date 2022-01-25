@@ -1,0 +1,12 @@
+[programs.devnet]
+twitterdemo = "FwwQjkYuFJdf1iJuDVK9MDx1NFDA7uior35jPg88VhQu"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/arman/.config/solana/id.json"
+
+[scripts]
+test = "node tests/twitterdemo.js"
